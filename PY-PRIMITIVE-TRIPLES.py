@@ -18,7 +18,7 @@ def TRIPLES(N,Z):
                                 if all([C1!=A1]):print("SET:",abs(C-A),",",abs(C0*2*A0),",",abs(C+A))
                                 if all([C1!=B1]):print("SET:",abs(C-B),",",abs(C0*2*B0),",",abs(C+B))
                                 if all([D1!=B1]):print("SET:",abs(D-B),",",abs(D0*2*B0),",",abs(D+B))
-TRIPLES(143**8,1)
+TRIPLES(121,0)
 #TRIPLES(N,Z)
 #N=AREA FROM 0 of PRIMITIVES, Z=0
 #N=SETS WITH N ONLY, Z=1 (NOT THE FASTEST METHOD DEVELOPED FOR FACTORING, BUT, AS THESE ARE RELATED TO COMPOSITE SETS)
